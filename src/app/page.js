@@ -1,10 +1,9 @@
-import Portfolio from "@/components/Portfolio";
-import Skiper10 from "@/components/Skiper10";
+import { Skiper71 } from "@/components/Skiper71";
 
-export default function Home() {
+export default function Page() {
   return (
-    <Skiper10>
-      <Portfolio />
-    </Skiper10>
+    <main className="h-full w-full bg-black text-white">
+      <Skiper71 />
+    </main>
   );
 }
